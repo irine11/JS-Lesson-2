@@ -1,0 +1,14 @@
+let user = {
+    firstname: 'giorgi',
+    lastname: 'saakadze',
+    age: 32,
+    isloggedin: true
+}
+
+function getUserName(user) {
+    if (user.isloggedin = true)
+        return "giorgi" + " " + "saakadze"
+
+}
+let right = getUserName(user);
+console.log(right);
