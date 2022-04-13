@@ -7,7 +7,7 @@ let user = {
 
 function getUserName(user) {
     if (user.isloggedin = true)
-        return "giorgi" + " " + "saakadze"
+        return user.firstname" + " " + user.lastname
 
 }
 let right = getUserName(user);
