@@ -4,8 +4,7 @@ function getPositiveSum(...args) {
     for (let item of args) {
         if (item > 0) {
             sum += item;
-            
-        }
+            }
     }
     console.log(sum);
 }
