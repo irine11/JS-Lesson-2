@@ -2,7 +2,7 @@
 function sum(...args) {
     let numberSum = 0;
     for (let item of args) {
-        numberSum = numberSum + item
+        numberSum = + item;
 
     }
 
